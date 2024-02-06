@@ -25,4 +25,5 @@ pub struct Binauctions {
 }
 pub struct Client {
     pub supabase: Postgrest,
+    pub data: String,
 }
